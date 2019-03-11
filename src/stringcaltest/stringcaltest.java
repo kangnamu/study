@@ -28,7 +28,7 @@ public class stringcaltest {
 	public void add_여러자리수() {
 		assertEquals(6, cal.add("1,2,3"));
 		assertEquals(6, cal.add("1:2:3"));
-		assertEquals(6, cal.add("1,2:3"));
+		assertEquals(12, cal.add("3,4:5"));
 	}
 	@Test
 	public void add_구분자() {
